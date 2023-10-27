@@ -10,13 +10,13 @@
             <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
             <p>Primer, explica'ns qui ets</p>
             <label for="email">Email:</label>
-            <input type="email" id="email">
+            <input type="email" id="email" required>
             <br>
             <label for="Nom i Cognoms">Nom i Cognoms:</label>
-            <input type="text" id="Nom i Cognoms">
+            <input type="text" id="Nom i Cognoms" required>
             <br>
             <label for="edat">Edat</label>
-            <input type="number" id="edat">
+            <input type="number" id="edat" required>
         </form>
         <form>
             <p>Quin cicle estas estudiant?</p>
@@ -49,8 +49,10 @@
             <label for="Recerca en algorísmia">Recerca en algorísmia</label>
             <br>
             <p>Hi ha algun tema més que t'interessi? Explicans-ho!</p>
-
-                
+            <textarea name="text" id="text" cols="50" rows="10" placeholder="També m'agradaria saber les últimes novetats sobre..." required></textarea>
+            <br>
+            <br>    
+            <button><a href="formular_enviat.html">Subscriu-me</a></button>
         </p>
 
         </form>
